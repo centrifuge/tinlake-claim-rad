@@ -2,13 +2,13 @@ pragma solidity ^0.6.7;
 
 import "ds-test/test.sol";
 
-import "./TinlakeClaimAddr.sol";
+import "./claim.sol";
 
-contract TinlakeClaimAddrTest is DSTest {
-    TinlakeClaimAddr addr;
+contract TinlakeClaimRadTest is DSTest {
+    TinlakeClaimRad addr;
 
     function setUp() public {
-        addr = new TinlakeClaimAddr();
+        addr = new TinlakeClaimRad();
     }
 
     function testFail_basic_sanity() public {
