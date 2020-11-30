@@ -1,6 +1,6 @@
-pragma solidity ^0.6.7;
+pragma solidity >=0.5.15;
 
-contract TinlakeClaimRad {
+contract TinlakeClaimRAD {
     mapping (address => bytes32) public accounts;
 
     function update(bytes32 account) public {

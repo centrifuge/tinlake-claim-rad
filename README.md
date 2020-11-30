@@ -2,6 +2,7 @@
 This contract allows a user to identify their ethereum address with a substrate key by submitting an `update()` transaction to the contract.
 
 Kovan Address: 0x18109F8cdf86597BBeA686CBDfd16e283bA164Dd
+Mainnet Address: 0xb245D176E2aF3B37F28f42083bD2E0C64F48393d
 
 ## Example Usage
 
