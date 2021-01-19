@@ -7,6 +7,6 @@ contract TinlakeClaimRAD {
     function update(bytes32 account) public {
         require(account != 0);
         accounts[msg.sender] = account;
-        Claimed(msg.sender, account);
+        emit Claimed(msg.sender, account);
     }
 }

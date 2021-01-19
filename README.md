@@ -1,9 +1,9 @@
 # Tinlake Claim Rad Contract
-This contract allows a user to identify their ethereum address with a substrate key by submitting an `update()` transaction to the contract.
+This contract allows a user to identify their ethereum address with a substrate key by submitting an `update(addr bytes32)` transaction to the contract.
 
 Kovan Address: 0x297237e17F327f8e5C8dEd78b15761A7D513353b
 
-Mainnet Address: 0xD10A3e31ff5475c779052864484998540feFC1E9
+Mainnet Address: 0x1cA3B2E7FfCAF83d9228a64e4726402B1d5CC054
 
 ## Example Usage
 
